@@ -6,7 +6,7 @@ var idsPersonagem = [];
 
 personagemAleatorio = () => {
   for(i=1;i<=4;i++){
-   idsPersonagem.push(Math.floor(Math.random() * 671))
+   idsPersonagem.push(Math.floor(Math.random() * (671-1) +1))
   }
 };
 
